@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body class="scroll-smooth">
+    <nav
+      id="main-nav"
+      class="fixed top-0 w-full flex items-center justify-between px-4 py-2 bg-transparent"
+    >
+      <div class="container mx-auto">
+        <div>
+          <a
+            href="#home"
+            class="text-2xl font-semibold text-gray-700 hover:text-gray-900"
+            >Arez Osman</a
+          >
+          <!-- Her indsættes en menu-toggle for mobile enheder, hvis det er nødvendigt -->
+        </div>
+
+        <div class="hidden md:flex items-center">
+          <ul class="flex space-x-4">
+            <li>
+              <a href="#home" class="text-gray-600 hover:text-gray-900">Home</a>
+            </li>
+            <li>
+              <a href="#about" class="text-gray-600 hover:text-gray-900"
+                >About</a
+              >
+            </li>
+            <li>
+              <a href="#service" class="text-gray-600 hover:text-gray-900"
+                >Services</a
+              >
+            </li>
+            <li>
+              <a href="#portfolio" class="text-gray-600 hover:text-gray-900"
+                >Portfolio</a
+              >
+            </li>
+            <li>
+              <a href="#contact" class="text-gray-600 hover:text-gray-900"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section
+      id="home"
+      class="h-screen bg-cover bg-top bg-no-repeat"
+      style="background-image: url('/img/bg3.jpg')"
+    >
+      <div class="container mx-auto px-4">
+        <div class="flex flex-wrap">
+          <div class="w-full lg:w-1/2 mt-32">
+            <ul class="flex space-x-4">
+              <li>
+                <a href="#" class="text-black hover:text-blue-600"
+                  ><i class="fas fa-envelope-open-text"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#" class="text-black hover:text-blue-600"
+                  ><i class="fab fa-facebook"></i
+                ></a>
+              </li>
+              <!-- Flere sociale ikoner -->
+            </ul>
+
+            <h1 class="text-6xl font-bold text-black mt-4">I am Arez Osman</h1>
+            <p class="mt-4 text-lg text-gray-700">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias
+              iure, esse id minus nostrum cumque enim, eligendi sequi dolor illo
+              ut eveniet tempora, molestias odit sit natus itaque eius! Ipsum.
+            </p>
+
+            <div class="mt-8">
+              <a
+                href="#portfolio"
+                class="mr-4 py-2 px-6 border border-gray-800 text-black hover:bg-gray-800 hover:text-white"
+                >My Portfolio</a
+              >
+              <a
+                href="#portfolio"
+                class="py-2 px-6 border border-gray-800 text-black hover:bg-gray-800 hover:text-white"
+              >
+                <i class="fa fa-caret-right"></i> My Portfolio
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="w-full lg:w-1/2 lg:absolute right-0 top-1/4">
+        <img
+          src="/img/bg.jpg"
+          alt=""
+          class="billede rounded-full w-1/4 lg:w-1/2 mx-auto lg:mx-0 lg:mr-24 shadow-2xl"
+        />
+      </div>
+    </section>
+  </body>
+</html>
